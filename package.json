@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock/issues"
   },
-  "homepage": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock#readme"
+  "homepage": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock#readme",
+  "dependencies": {
+    "@wicken/olsonTZNPMmodule": "github:Vicken-Ghoubiguian/olsonTZNPMmodule",
+    "@wicken/openweather": "github:Vicken-Ghoubiguian/openWeather"
+  }
 }
