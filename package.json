@@ -1,0 +1,19 @@
+{
+  "name": "universal_connected_clock",
+  "version": "1.0.0",
+  "description": "This project consists to make an universal connected clock to return current date and time on all timezones in the world with their corresponding location's current weather and all translated in 4 languages (english, french, spannich and catalan)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicken-Ghoubiguian/Universal_connected_clock.git"
+  },
+  "author": "wicken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock/issues"
+  },
+  "homepage": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock#readme"
+}
