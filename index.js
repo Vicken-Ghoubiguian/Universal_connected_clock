@@ -18,7 +18,7 @@ var app = express();
 var negotiator;
 var currentLocale = null;
 var currentDateAndTimeFormat = "X";
-//var currentCountryCode = timezones.getCountryCodeFromTimezone(Intl.DateTimeFormat().resolvedOptions().timeZone);
+//var currentCountryCode = olsonTZNPMmodule.getCountryCodeFromOneTimezone(Intl.DateTimeFormat().resolvedOptions().timeZone);
 var currentTemperatureUnit = "Kelvin";
 var currentTemperatureUnitSymbol = "";
 var currentPressureUnit = "hectoPascal";
