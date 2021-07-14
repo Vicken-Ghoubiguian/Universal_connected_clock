@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Vicken-Ghoubiguian/Universal_connected_clock#readme",
   "dependencies": {
     "@wicken/olsonTZNPMmodule": "github:Vicken-Ghoubiguian/olsonTZNPMmodule",
-    "@wicken/openweather": "github:Vicken-Ghoubiguian/openWeather"
+    "@wicken/openweather": "github:Vicken-Ghoubiguian/openWeather",
+    "express": "^4.17.1",
+    "negotiator": "^0.6.2",
+    "serve-favicon": "^2.5.0"
   }
 }
