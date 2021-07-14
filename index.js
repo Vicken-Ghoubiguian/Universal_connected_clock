@@ -1,10 +1,10 @@
-//
+// Import the 'express' module ()...
 var express = require('express');
 
-//
+// Import the 'serve-favicon' module ()...
 var favicon = require('serve-favicon');
 
-//
+// Import the 'negotiator' module ()...
 var Negotiator = require('negotiator');
 
 // Import the 'olsonTZNPMmodule' module...
