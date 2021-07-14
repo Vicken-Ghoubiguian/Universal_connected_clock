@@ -12,3 +12,17 @@ var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 
 // Import the 'openWeather' module (for more informations: https://github.com/Vicken-Ghoubiguian/openWeather)...
 var openWeather = require('@wicken/openweather');
+
+// Declaration of all required variables for the 'node_world_server' app with their default values...
+var app = express();
+var negotiator;
+var currentLocale = null;
+var currentDateAndTimeFormat = "X";
+//var currentCountryCode = timezones.getCountryCodeFromTimezone(Intl.DateTimeFormat().resolvedOptions().timeZone);
+var currentTemperatureUnit = "Kelvin";
+var currentTemperatureUnitSymbol = "";
+var currentPressureUnit = "hectoPascal";
+var currentPressureUnitSymbol = "hPa";
+var currentWindSpeedUnit = "meter_per_second";
+var currentWindSpeedUnitSymbol = "m/s";
+//var currentFontFamily = fontFamilies.getFontFamilyFromId(23);
