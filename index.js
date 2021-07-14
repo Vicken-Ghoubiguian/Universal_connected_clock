@@ -1,3 +1,9 @@
+//
+var express = require('express');
+
+//
+var favicon = require('serve-favicon');
+
 // import the 'olsonTZNPMmodule' module...
 var olsonTZNPMmodule = require('@wicken/olsonTZNPMmodule');
 
