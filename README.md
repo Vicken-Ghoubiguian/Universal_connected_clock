@@ -3,6 +3,8 @@ This project consists to make an universal connected clock to return current dat
 
 ## Contents
 
+## Introduction
+
 ## Useful links
 
 ## Conclusion
