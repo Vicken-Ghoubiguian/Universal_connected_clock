@@ -3,12 +3,15 @@ This project consists to make an universal connected clock to return current dat
 
 ## Contents
 
-1. Introduction
-2. Useful links
-3. Conclusion
+1. [Introduction](#introduction)
+2. [Useful links](#useful_links)
+3. [Conclusion](#conclusion)
 
+<a name="introduction"></a>
 ## Introduction
 
+<a name="useful_links"></a>
 ## Useful links
 
+<a name="conclusion"></a>
 ## Conclusion
