@@ -25,7 +25,7 @@ app.get('/', function(req, res) {
   //
   res.render('index.ejs', {});
   
-}
+});
         
 // Defining the listening port for the 'node_world_server' application...
 app.listen('80');
