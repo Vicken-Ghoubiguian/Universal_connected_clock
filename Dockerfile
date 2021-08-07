@@ -16,5 +16,5 @@ RUN npm install
 #Expose the docker container listening port
 EXPOSE 80
 
-#
+# Container instruction as entrypoint :
 CMD npm start
