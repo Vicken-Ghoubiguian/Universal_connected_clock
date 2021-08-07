@@ -4,7 +4,8 @@
   "description": "This project consists to make an universal connected clock to return current date and time on all timezones in the world with their corresponding location's current weather and all translated in 4 languages (english, french, spannich and catalan)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "negotiator": "^0.6.2",
+    "nodemon": "^2.0.6",
     "serve-favicon": "^2.5.0"
   }
 }
