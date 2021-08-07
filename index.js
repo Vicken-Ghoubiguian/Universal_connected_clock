@@ -16,6 +16,20 @@ var openWeather = require('@wicken/openweather');
 // Declaration of all required variables for the 'node_world_server' app with their default values...
 var app = express();
 
+// Declaration of views files...
+app.set('views', __dirname + '/views');
+
+// 
+app.get('/', function(req, res) {
+  
+  //
+  res.render('index.ejs', {});
+  
+}
+        
+// Defining the listening port for the 'node_world_server' application...
+app.listen('80');
+
 // ==================================================================================================================================================
 /* var negotiator;
 var currentLocale = null;
