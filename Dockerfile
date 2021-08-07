@@ -10,11 +10,11 @@ COPY . /Universal_connected_clock
 #Definition of the timezone Docker image for the "Europe/Paris" one
 RUN ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 
-#Install all the needed npm packages to run the Universal_connected_clock
+#Install all the needed npm packages to run the Universal_connected_clock project
 RUN npm install
 
 #Expose the docker container listening port
 EXPOSE 80
 
-# Container instruction as entrypoint : 
+# Container instruction as entrypoint : activate the Universal_connected_clock project
 CMD npm start
