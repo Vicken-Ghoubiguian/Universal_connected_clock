@@ -19,7 +19,7 @@ var app = express();
 // Declaration of views files...
 app.set('views', __dirname + '/views');
 
-// 
+// Definition of the 'GET' method which is called when an HTTP request with a 'GET' method is received by the current application...
 app.get('/', function(req, res) {
   
   //
@@ -27,7 +27,7 @@ app.get('/', function(req, res) {
   
 });
 
-// 
+// Definition of the 'POST' method which is called when an HTTP request with a 'POST' method is received by the current application...
 app.post('/', function(req, res) {
   
   //
