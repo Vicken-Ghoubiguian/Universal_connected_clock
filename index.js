@@ -22,7 +22,7 @@ app.set('views', __dirname + '/views');
 // Definition of the 'GET' method which is called when an HTTP request with a 'GET' method is received by the current application...
 app.get('/', function(req, res) {
   
-  //
+  // Configuration of the response to be rendered with the parameters for rendering on the web page ('index.ejs' file)...
   res.render('index.ejs', {});
   
 });
@@ -30,7 +30,7 @@ app.get('/', function(req, res) {
 // Definition of the 'POST' method which is called when an HTTP request with a 'POST' method is received by the current application...
 app.post('/', function(req, res) {
   
-  //
+  // Configuration of the response to be rendered with the parameters for rendering on the web page ('index.ejs' file)...
   res.render('index.ejs', {});
   
 });
